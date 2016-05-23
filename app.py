@@ -1,6 +1,6 @@
 __author__ = 'plevytskyi'
 import os
-from flask import Flask, url_for, render_template, request, session, redirect
+from flask import Flask, url_for, render_template, request, session, redirect, send_from_directory
 from flask_oauth import OAuth
 
 # initialization
